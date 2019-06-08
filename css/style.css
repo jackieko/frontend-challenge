@@ -1,0 +1,126 @@
+*, *:before, *:after {
+  box-sizing: border-border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+  font-family: 'roboto', sans-serif;
+}
+
+.container {
+  width: 100%;
+}
+
+.top-nav {
+  width: 100%;
+  height: 30px;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0px;
+  background-color: #FFFFFF;
+  vertical-align: middle;
+  position: relative;
+}
+
+.top-nav img {
+  width: 2.7em;
+  display: inline-block;
+}
+
+.search-bar {
+  display: inline-block;
+  float: right;
+  border: 1px solid #979797;
+  border-radius: 5px;
+  width: 75%;
+  height: 27px;
+  margin-right: 5%;
+  color: #979797;
+}
+
+.search-bar h1 {
+  text-align: left;
+  font-size: 1.3em;
+  padding: 7px 0 0 7px;
+}
+/*End of top nav section*/
+
+.map-list-view img {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.bus-row {
+  width: 100%;
+  height: 90px;
+  display: block;
+  background-color: #0C3BD6;
+  color: white;
+  line-height: normal;
+  postion: absolute;
+}
+
+.bus-number {
+  display: inline-block;
+  width: 15%;
+  font-size: 26px;
+  font-weight: bold;
+  float: left;
+  text-align: left;
+  padding: 30px 0;
+  padding-left: 5%;
+}
+
+.bus-list {
+  width: 55%;
+  display: inline-block;
+  text-align: left;
+  padding: 26px 0;
+}
+
+.bus-time {
+  display: inline-block;
+  width: 20%;
+  float: right;
+  padding: 26px 0;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.bus-list h3, .bus-time h3 {
+  font-size: 11px;
+}
+
+.bus-list h1, .bus-time h1 {
+  font-size: 22px;
+}
+/* End of normal bus routes*/
+.reroute .bus-row {
+  background-color: #3F3F3F;
+}
+
+/*End of reroute*/
+
+.out-of-service img {
+  display: inline-block;
+  padding: 0 3px;
+  width: 17px;
+  height: 17px;
+}
+
+.out-of-service .bus-row {
+  background-color: #CD4949;
+}
+
+.out-of-service .bus-row h2 {
+  font-size: 16px;
+}
+
+.out-of-service .bus-row h3 {
+  display: inline-block;
+  font-size: 12px;
+}
