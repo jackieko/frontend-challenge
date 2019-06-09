@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-  width: 100%;
+  max-width: 100%;
 }
 
 .top-nav {
@@ -61,7 +61,6 @@ body {
   background-color: #0C3BD6;
   color: white;
   line-height: normal;
-  postion: absolute;
 }
 
 .bus-number {
@@ -80,6 +79,7 @@ body {
   display: inline-block;
   text-align: left;
   padding: 26px 0;
+  float: left;
 }
 
 .bus-time {
@@ -114,6 +114,7 @@ body {
 
 .out-of-service .bus-row {
   background-color: #CD4949;
+  float: left;
 }
 
 .out-of-service .bus-row h2 {
