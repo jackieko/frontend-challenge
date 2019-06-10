@@ -8,6 +8,13 @@ body {
   font-family: 'roboto', sans-serif;
 }
 
+#wrapper {
+  width: 375px;
+  height: 667px;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
 .container {
   max-width: 100%;
 }
@@ -66,7 +73,7 @@ body {
 .bus-number {
   display: inline-block;
   width: 15%;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
   float: left;
   text-align: left;
@@ -96,7 +103,7 @@ body {
 }
 
 .bus-list h1, .bus-time h1 {
-  font-size: 22px;
+  font-size: 20px;
 }
 /* End of normal bus routes*/
 .reroute .bus-row {
